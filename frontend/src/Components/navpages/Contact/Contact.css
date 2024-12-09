@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.mainContainer {
+    background-image: url('Rectangle 626 copy 3@2x.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+
+.contactContainer {
+    min-width: 81vw;
+    margin-top: 100px;
+}
+
+.contactHeading {
+    background: rgba(255, 255, 255, .5);
+    border-radius: 6px;
+    max-width: 290px;
+    padding: 16px 10px 13px 15px;
+}
+
+.contactHeading h1,
+p {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.contactCard {
+    min-width: 83vw;
+    background-color: #fff;
+    box-shadow: 0px 6px 30px #0000001A;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.cardHead {
+    display: flex;
+    align-items: center;
+
+    padding: 19px 17px 18px;
+    border-bottom: 1px solid #9f939329;
+}
+
+.cardHead img {
+    box-shadow: 0px 3px 16px #00000029;
+    width: 81px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.cardHead h3 {
+    margin-left: 36px;
+    color: #5BC0DE;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.cardDetail {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.cardItems {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.cardItems p {
+    font-size: 14px;
+}
+
+.cardItemEmails {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    gap: 30px;
+}
+
+.emailIcon {
+    align-self: flex-start;
+}
+
+.cardItemIcon {
+    box-shadow: 0px 3px 16px #00000029;
+    border-radius: 50%;
+    border: 1px solid #f4d7d0;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardItemEmails1 {
+    width: 330px;
+}
+
+.cardItemEmails1 .para {
+    color: #5BC0DE;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cardItemEmails1 .para a{
+    color: #5BC0DE;
+}
+.feedbackQuerryCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.feedbackQuerryCard h1 {
+    align-self: flex-start;
+}
+
+
+@media screen and (max-width:990px) {
+    .contactContainer {
+        min-width: 50vw;
+    }
+
+    .contactCard {
+        height: 650px;
+    }
+}

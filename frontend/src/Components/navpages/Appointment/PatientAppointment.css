@@ -1,0 +1,222 @@
+.patient-appointment-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.appointment-content-welcoming {
+    background-image: url('./surgery_amrita_hospitals.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0.9;
+}
+
+.appointment-heading {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.appointment-heading h2 {
+
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+}
+
+.appointment-heading p {
+    width: 80%;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.form-container {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 40px 30px;
+
+}
+
+.form-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.form-container h2 {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.left-form,
+.right-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 35%;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 13px 0px;
+    width: 90%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.form-item label {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+}
+
+.form-item input {
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #dedede;
+}
+
+.form-item input:hover {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.submitBtn {
+    padding: 13px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    transition: all 0.1s ease-in-out;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.submitBtn:hover {
+    transform: scale(1.02);
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.submit-message {
+    transition: all 0.1s ease-in-out;
+    color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    bottom: 20px;
+}
+
+.appointments-submit {
+    width: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin: 10px 0px 60px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.appointments-submit h2 {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.appointment-card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+    width: 80%;
+    padding: 0px 20px;
+    margin: 50px 30px;
+    border-radius: 5px;
+}
+
+.appointment-card h3 {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.recieved-time {
+    color: #34B7F1;
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.appointment-progress {
+    padding: 10px 20px;
+    background-color: red;
+    width: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.end-card-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.delete-icon{
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+.delete-icon:hover{
+    cursor: pointer;
+    opacity: 0.8;transform: scale(1.07);
+}
+@media (max-width:700px) {
+    .end-card-item {
+        flex-wrap: wrap;
+    }
+
+
+    @media (max-width:700px) {
+        .end-card-item {
+            flex-wrap: wrap;
+        }
+
+        .appointment-heading h2 {
+            margin-top: 30px;
+            font-size: 45px;
+        }
+
+        .appointment-heading p {
+            font-size: 10px;
+            width: 95%;
+            letter-spacing: 0px;
+            /* display: none; */
+        }
+    }
+}

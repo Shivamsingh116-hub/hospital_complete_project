@@ -1,0 +1,59 @@
+/* Disease.css */
+.disease-component{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+.disease-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.disease-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.disease-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.disease-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.disease-card h2 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.disease-card h3 {
+    color: #3498db;
+}
+
+.disease-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.disease-card ul li {
+    margin-bottom: 8px;
+}
+
+.disease-card p {
+    color: #7f8c8d;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer {
+    width: 100%;
+}
